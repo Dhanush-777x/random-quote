@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
         const quoteData = JSON.parse(data);
 
         res.send(`
-        <h1>Motivational Quote</h1>
+        <h1>Motivational Quote !!!</h1>
         <p>"${quoteData.quote}"</p>
         <p><i>- ${quoteData.author}</i></p>
       `);
